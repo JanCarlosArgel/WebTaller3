@@ -12,15 +12,15 @@ body {
   background-color: white;
   color: black;
   padding: 10px;
-  margin-top: 30px; 
-  width: 82%; 
-  margin-left: auto; 
-  margin-right: auto; 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  z-index: 1; 
+  margin-top: 30px;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 nav {
@@ -34,20 +34,31 @@ nav {
   font-weight: bold;
 }
 
-.nav-links a {
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
   color: black;
   text-decoration: none;
   margin-left: 20px;
-  transition: color 0.3s, background-color 0.3s; 
-  padding: 10px; 
+  transition: color 0.3s, background-color 0.3s;
+  padding: 10px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .nav-links a:hover {
-  color: white; 
-  background-color: rgba(20,182,9,0.77); 
+  color: white;
+  background-color: rgba(20, 182, 9, 0.77);
 }
+
 
 /* Sección principal */
 .hero {
@@ -69,10 +80,10 @@ nav {
 }
 
 .hero-content {
-  width: 350px;
+  width: 390px;
   height: 320px;
   background-color: white;
-  margin-left: -60%;
+  margin-left: -57%;
 }
 
 .price {
@@ -89,6 +100,22 @@ button {
   width: 55%;
 }
 
+button:hover{
+  background-color: #59ff78;
+  color: black;
+}
+
+.reserva{
+  background-color: #4caf50;
+  color: white;
+  width: 275px;
+}
+
+
+.reserva:hover {
+  background-color: #59ff78;
+  color: #333;
+}
 .destinations {
   display: flex;
   justify-content: space-around;
@@ -101,6 +128,20 @@ button {
   margin-top: 0;
 }
 
+.description-P1{
+  color: green;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.description-P2{
+  color: red;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+
 .destination h3 {
   margin: 0;
   background-color: #4caf50;
@@ -110,7 +151,7 @@ button {
 }
 
 .destination img {
-  width: 200px;
+  width: 275px;
   height: 190px;
   object-fit: cover;
   display: block;
@@ -122,7 +163,9 @@ button {
 }
 
 .header .logo1 img {
-  height: 70px;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 50px;
   width: auto;
   transition: all 0.3s;
 }
@@ -166,9 +209,9 @@ button {
 }
 
 .flex-container > div img {
-  margin-top: 20px;
-  height: 125px;
-  width: 170px;
+  margin-top: 35px;
+  height: 100px;
+  width: 100px;
 }
 
 /*footer*/
@@ -226,6 +269,7 @@ a {
 }
 
 .social {
+  margin-top: 0;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -237,11 +281,13 @@ a {
 
 .social i {
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .col-md-4 img {
-  width: 110px;
-  height: 80px;
+  width: 120px;
+  height: 50px;
+  margin-top: 15px;
 }
 
 .about{
@@ -276,7 +322,7 @@ a {
 
 .contac img{
   margin-top: 25px;
-  width: 170px;
-  height: 115px;
+  width: 225px;
+  height: 85px;
 }
 
